@@ -1,0 +1,54 @@
+{
+    "name": "Inputs",
+    "maps": [
+        {
+            "name": "Boid",
+            "id": "914eb986-3f25-47f7-b0ae-6541e9f94af1",
+            "actions": [
+                {
+                    "name": "SpawnPosition",
+                    "type": "Value",
+                    "id": "ba6f20cb-6c3b-4872-9b57-f378d7462917",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SpawnTrigger",
+                    "type": "Button",
+                    "id": "547bf2ac-d7ec-4b8b-bd74-767ed1d92f9c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cade731b-200a-4bbe-890f-9aaa966e3f60",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ddf662ab-ed09-4d03-8dbc-18d128f40372",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
